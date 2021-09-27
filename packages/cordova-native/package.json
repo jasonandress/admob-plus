@@ -25,7 +25,10 @@
   },
   "author": "Ratson",
   "license": "MIT",
-  "repository": "admob-plus/admob-plus",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/admob-plus/admob-plus.git"
+  },
   "homepage": "https://admob-plus.github.io/docs/cordova-native",
   "files": [
     "*.ts",
@@ -59,5 +62,8 @@
     "extends": [
       "concise-esnext"
     ]
+  },
+  "bugs": {
+    "url": "https://github.com/admob-plus/admob-plus/issues"
   }
 }
